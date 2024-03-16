@@ -1,4 +1,4 @@
-ASSIGNMENT ONE - SIMPLE GA IMPLEMENTATION
+GENETIC ALGORITHM IMPLEMENTATION
 
 This assignment implemented three different algorithms with the aim of evolving to a target string "Welcome to CS547!". The implemented algorithms are as follows: Genetic Algorithm, Hill climber and a random search
 
