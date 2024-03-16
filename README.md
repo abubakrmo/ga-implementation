@@ -1,8 +1,14 @@
 GENETIC ALGORITHM IMPLEMENTATION
 
-This assignment implemented three different algorithms with the aim of evolving to a target string "Welcome to CS547!". The implemented algorithms are as follows: Genetic Algorithm, Hill climber and a random search
+This project implement three algorithms with the aim of evolving to a target string "Welcome to CS547!". The three algorithms that were implemented are:
+<ul>
+  <li>Genetic Algorithm</li>
+  <li>Hill Climber</li>
+  <li>Random Search</li>
+</ul>
+This project was purely written in Java and does not require any additional framework to be installed.
 
-The language employed in writing these algorithms is JAVA and does not require any additional framework to be installed.
+
 
 Once the zip file (assignmentOne) is downloaded and unzipped, three classes namely: GeneticAlgorithm, HillClimbing, RandomSolution can be accessed by this file path src/com/assignment.
 
