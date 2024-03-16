@@ -24,8 +24,6 @@ public class GeneticAlgorithm {
             }
         }
         return fitness;
-
-
     }
 
     private static String selectParent(String[] population, int[] fitnessScores) {
