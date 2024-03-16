@@ -3,8 +3,8 @@ import java.util.Random;
 public class RandomSearch {
     private static final String TARGET_STRING = "Welcome to CS547!";
     private static final String ALL_CHARACTERS = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 !";
-
-    //number of iterations could be altered for different results
+    //maximum number of iterations could be altered for different results, the higher the max_iterations, the higher the probability of 
+    //evolving to the target string
     private static final int MAX_ITERATIONS = 10000;
     private static String generateRandomString() {
         Random random = new Random();
