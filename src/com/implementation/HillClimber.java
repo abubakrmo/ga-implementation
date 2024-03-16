@@ -1,4 +1,4 @@
-package com.assignment;
+package com.implementation;
 import java.util.Random;
 public class HillClimber {
     private static final String TARGET_STRING = "Welcome to CS547!";
