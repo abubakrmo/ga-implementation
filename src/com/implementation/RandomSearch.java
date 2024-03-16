@@ -4,6 +4,7 @@ public class RandomSearch {
     private static final String TARGET_STRING = "Welcome to CS547!";
     private static final String ALL_CHARACTERS = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 !";
 
+    //number of iterations could be altered for different results
     private static final int MAX_ITERATIONS = 10000;
     private static String generateRandomString() {
         Random random = new Random();
