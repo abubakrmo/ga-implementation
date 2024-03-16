@@ -3,6 +3,7 @@ import java.util.Random;
 public class GeneticAlgorithm {
     private static final String TARGET_STRING = "Welcome to CS547!";
     private static final String POSSIBLE_CHARACTERS = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 !";
+    //Population size as well as mutation rate can be manipulated for different results
     private static final int POPULATION_SIZE = 1000;
     private static final double MUTATION_RATE = 0.01;
     private static String generateRandomString() {
