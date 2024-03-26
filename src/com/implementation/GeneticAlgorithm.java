@@ -92,7 +92,7 @@ public class GeneticAlgorithm {
             }
             System.out.println("Generation " + generation + ": " + bestSolution);
             if (maxFitness == TARGET_STRING.length()) {
-                System.out.println("It took " + generation + " generations for the GA to meet the goal of evolving the target string: " + bestSolution + ".");
+                System.out.println("It took " + generation + " generations for the GA to evolve to the target string: " + bestSolution + ".");
                 break;
             }
             String[] newPopulation = new String[POPULATION_SIZE];
